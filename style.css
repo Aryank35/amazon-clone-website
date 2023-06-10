@@ -1,0 +1,237 @@
+/* Reset default styles and set global font family */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Remove underline from anchor tags */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Styling for elements with border class on hover */
+  .border {
+    border: 1.5px solid transparent;
+  }
+  
+  .border:hover {
+    border: 1.5px solid white;
+  }
+  
+  /* Styling for the navigation bar */
+  .navbar {
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  /* Styling for the company logo */
+  .company-logo img {
+    height: 50px;
+    width: 100px;
+    padding-top: 10px;
+  }
+  
+  /* Styling for the location section */
+  .location {
+    color: white;
+    height: 80%;
+    padding-top: 8px;
+  }
+  
+  .upper-loc-text {
+    font-size: 0.8rem;
+    padding-left: 18px;
+    color: #cccccc;
+  }
+  
+  .upper-text {
+    font-size: 0.8rem;
+    color: #cccccc;
+  }
+  
+  .lower-text {
+    font-size: 0.9rem;
+    color: white;
+  }
+  
+  .fa-location-dot {
+    font-size: 1.2rem;
+  }
+  
+  /* Styling for the search bar */
+  .searchBar {
+    display: flex;
+    width: 50%;
+    padding: 2px;
+  }
+  
+  .searchBar:hover {
+    border: 1.5px solid orange;
+    border-radius: 4px;
+  }
+  
+  .select-items select {
+    background-color: #e3e2e2;
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .search-tab {
+    height: 36px;
+    width: 100%;
+  }
+  
+  .search-tab input {
+    height: 36px;
+    width: 100%;
+  }
+  
+  .search-icon {
+    height: 40px;
+    width: 45px;
+    background-color: rgb(227, 155, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .search-icon i {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Styling for the login section */
+  .login {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .return {
+    padding: 5px;
+  }
+  
+  .return a {
+    display: block;
+  }
+  
+  /* Styling for the cart section */
+  .cart {
+    display: flex;
+    padding: 5px;
+  }
+  
+  .cart i {
+    color: white;
+    margin-right: 5px;
+    font-size: 1.5rem;
+  }
+  
+  /* Styling for the panel */
+  .panel {
+    background-color: #292d2d;
+    height: 40px;
+    width: 100vw;
+  }
+  
+  .panel ul {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .panel li {
+    list-style-type: none;
+  }
+  
+  .panel a {
+    color: white;
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+
+  /*style of hero section */
+.hero-section{
+    height: 310px;
+    width: 100vw;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+  .hero-section p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 227, 227);
+    height: 40px;
+    width: 90%;
+    margin-top: 250px;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .hero-section a{
+    color: #007185;
+  }
+
+  .hero-section a:hover{
+    color: #c7511f;
+    text-decoration: underline;
+  }
+
+  /* styling of product section  */
+
+  .products-section{
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #becfd0;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  .box{
+    margin-top: 40px;
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    
+    
+  }
+.box-content{
+    margin-left: 10px;
+}
+.box p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 5px;
+}
+  .image{
+    width: 95%;
+    height: 280px;
+    background-size: cover;
+    margin-bottom: 7px;
+  }
+.box a{
+    color: #007185;
+}
+.box a:hover{
+    color: #c7511f;
+    text-decoration: underline;
+}
+
+
+
+  
