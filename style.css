@@ -163,7 +163,7 @@
 
   /*style of hero section */
 .hero-section{
-    height: 310px;
+    height: 330px;
     width: 100vw;
     background-image: url(hero_image.jpg);
     background-size: cover;
@@ -196,6 +196,7 @@
 
   .products-section{
     height: 800px;
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     background-color: #becfd0;
@@ -226,12 +227,88 @@
   }
 .box a{
     color: #007185;
+    font-size: 0.8rem;
 }
 .box a:hover{
     color: #c7511f;
     text-decoration: underline;
 }
+ 
+/* styling of footer  */
 
+.foot1{
+  height: 40px;
+  width: 100vw;
+  background-color: #292d2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.foot1 a{
+  color: white;
+}
 
-  
+.foot1 a:hover{
+  color:dimgray ;
+}
+
+.foot2{
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 100vw;
+  background-color: #232f3e;
+  color: white;
+}
+
+.foot2 h1{
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+
+.foot2 li{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.foot2 a{
+  color: white;
+  font-size: 0.86rem;
+}
+
+.foot2 a:hover{
+  color: #007185;
+  text-decoration: underline;
+}
+
+.foot3{
+  height: 100px;
+  width: 100vw;
+  background-color: #232f3e;
+  border-top: 1.2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo-image img{
+    height: 70px;
+    width: 130px;
+    padding-top: 10px;
+}
+
+.foot4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  width: 100vw;
+  background-color: #131a22;
+}
+
+.foot4 p{
+  font-size: 0.8rem;
+  color: white;
+}
