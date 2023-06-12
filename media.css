@@ -63,7 +63,7 @@
     /* Styles for screens between 340px and 558px width */
   
     .navbar{
-      height: 35px;
+      height: 50px;
     }
     .return{
       display: none;
@@ -125,7 +125,7 @@
     /* Styles for screens below 340px width */
   
     .navbar{
-      height: 35px;
+      height: 50px;
     }
     .return{
       display: none;
