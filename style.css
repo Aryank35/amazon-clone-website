@@ -142,7 +142,7 @@
   .panel {
     background-color: #292d2d;
     height: 40px;
-    width: 100vw;
+    width: 100%;
   }
   
   .panel ul {
@@ -164,7 +164,7 @@
   /*style of hero section */
 .hero-section{
     height: 330px;
-    width: 100vw;
+    width: 100%;
     background-image: url(hero_image.jpg);
     background-size: cover;
     display: flex;
@@ -196,7 +196,7 @@
 
   .products-section{
     height: 800px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     background-color: #becfd0;
@@ -238,7 +238,7 @@
 
 .foot1{
   height: 40px;
-  width: 100vw;
+  width: 100%;
   background-color: #292d2d;
   display: flex;
   justify-content: center;
@@ -257,7 +257,7 @@
   display: flex;
   justify-content: space-evenly;
   height: 400px;
-  width: 100vw;
+  width: 100%;
   background-color: #232f3e;
   color: white;
 }
@@ -284,7 +284,7 @@
 
 .foot3{
   height: 100px;
-  width: 100vw;
+  width: 100%;
   background-color: #232f3e;
   border-top: 1.2px solid white;
   display: flex;
@@ -304,7 +304,7 @@
   justify-content: center;
   text-align: center;
   height: 50px;
-  width: 100vw;
+  width: 100%;
   background-color: #131a22;
 }
 
